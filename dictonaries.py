@@ -8,9 +8,10 @@ student = {
         "science" : 88
     }
 }
-print(student["courses"])
-print(student)
+print(student["courses"] )
+print(student )
 print(list(student.keys()))  
 print(tuple(student.keys()))
-
+student.update({"xyz": 100})
+print(student)  # Display the updated dictionary
 print(student.get("xyz"))
