@@ -1,6 +1,6 @@
 def table_gen(n):
     table =""
-# "" means empty string to generate table in empty space
+# "" means empty string to generate table in empty file
     for i in range (1, 11):
         table += f"{n} x {i} = {n*i}\n"
     
